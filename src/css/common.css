@@ -16,3 +16,55 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer{
+  display:flex;
+  margin-top: 25vh;
+  justify-content: center;
+  
+}
+
+
+button, input{
+  background-color: darkblue;
+  padding: 10px 25px;
+  border: 2px solid magenta;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: #fafafa;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+
+button:hover{
+background-color: gray;
+}
+
+.field{
+  width: 280px;
+  margin-right: 10px;
+  padding: 20px;
+  border: 5px solid magenta;
+  border-radius: 20px;
+  background-color: darkblue;
+  color:magenta;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.value{
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  
+}
+.label{
+  justify-content: center;
+  display: flex;
+}
+
+.timer--end {
+  color: red;
+  background-color: gray;
+}
